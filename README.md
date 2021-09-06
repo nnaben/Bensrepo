@@ -93,6 +93,9 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 	File path:  **/Bensrepo/Diagrams/docker-ps**
+	![docker-ps](https://user-images.githubusercontent.com/82910130/132226699-eda75c96-f242-43a3-8612-e4b0709146f9.png)
+
+
 
 
 ![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
