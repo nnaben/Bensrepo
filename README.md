@@ -10,6 +10,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _TODO: Enter the playbook file.
   - **Bensrepo/Ansible/Elk-install.yml**
+  -  ![https://github.com/nnaben/Bensrepo/blob/main/Ansible/install-elk.yml]
 
 This document contains the following details:
 - Description of the Topology
@@ -35,9 +36,13 @@ Load balancing ensures that the application will be highly available, in additio
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system use
  _TODO: What does Filebeat watch for?
 	**- It watches for log data, centralizes and forwards it to Logstash for enrichment**
+	
+	![https://github.com/nnaben/Bensrepo/blob/main/Diagrams/Filebeat-kibeana.PNG]
 
  _TODO: What does Metricbeat record?
 	- **It periodically collects metrics from operating systems and other sevices running in a server**
+	
+	![https://github.com/nnaben/Bensrepo/blob/main/Diagrams/Metribeat%201-%20kibana.PNG]
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -90,11 +95,6 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-	File path:  **/Bensrepo/Diagrams/docker-ps**
-	![docker-ps](https://user-images.githubusercontent.com/82910130/132226699-eda75c96-f242-43a3-8612-e4b0709146f9.png)
-
-
-
 
 ![https://github.com/nnaben/Bensrepo/blob/main/Diagrams/docker-ps.JPG)
 
@@ -126,7 +126,9 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 -  Which file is the playbook? **All yml files (eg Elk-install.yml)**
+-  
 -  ![https://github.com/nnaben/Bensrepo/blob/main/Ansible/install-elk.yml]
+
 -  Where do you copy it?_**/etc/ansible/files**
 -  Which file do you update to make Ansible run the playbook on a specific machine? The hosts file - ?_/etc/ansible/hosts
 
