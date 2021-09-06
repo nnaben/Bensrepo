@@ -126,6 +126,7 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 -  Which file is the playbook? **All yml files (eg Elk-install.yml)**
+-  ![https://github.com/nnaben/Bensrepo/blob/main/Ansible/install-elk.yml]
 -  Where do you copy it?_**/etc/ansible/files**
 -  Which file do you update to make Ansible run the playbook on a specific machine? The hosts file - ?_/etc/ansible/hosts
 
