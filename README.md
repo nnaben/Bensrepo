@@ -42,7 +42,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
  _What does Metricbeat record?
 	- **It periodically collects metrics from operating systems and other sevices running in a server**
 	
-	![https://github.com/nnaben/Bensrepo/blob/main/Diagrams/Metribeat%201-%20kibana.PNG]
+	![https://github.com/nnaben/Bensrepo/blob/main/Diagrams/Metribeat-kibana.PNG]
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
